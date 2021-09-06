@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultado</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        .login{
+            top: 50%;
+            left: 50%;
+            position: absolute;
+            transform: translate(-50%,-50%);
+        }
+        .user{
+            padding: 60px 40px 50px 40px;
+            background: rgb(103, 133, 103);
+            border-radius: 12px;  
+        }
+        #name{
+            width: 200px;
+            border: none;
+            background:rgb(129, 118, 116);
+            border-bottom: 1px solid rgb(15, 15, 15);
+            padding: 10px;
+        }
+        #button{
+            border-radius:20px black;
+            padding: 10px 20px;
+            background: burlywood;
+            color: rgb(8, 8, 19);
+            margin-top: 20px;
+            border: none;
+            outline: none;
+            margin-left: 50px;
+            cursor: pointer;
+        }
+        img{
+            border-radius: 50%;
+            position:relative;
+            margin-left: 100px;
+            margin-top: -50px;
+        }
+        
+
+    </style>
+</head>
+<body>
+   <div class="login">
+       <div class="user">
+           <img src="logo.png" height="60" width="60">
+           <input type="text" placeholder="Nome" id="name">
+           <input type="password" placeholder="Senha" id="name">
+           <input type="submit" value="Acessar" id="button">
+       </div>
+   </div>
+    
+</body>
+</html>
